@@ -1,0 +1,97 @@
+body {
+    background-color: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    text-align: center;
+    color: #5b4db2;
+    text-decoration: underline;
+}
+
+#form {
+    width: 800px;
+    margin: auto;
+    background: linear-gradient(#6d5bd0, #5b4db2);
+    padding: 20px;
+    border: 2px solid #333;
+    color: white;
+}
+
+.main-table {
+    width: 100%;
+}
+
+.label {
+    width: 200px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.input {
+    width: 200px;
+    padding: 4px;
+}
+
+.input.small {
+    width: 120px;
+}
+
+.textarea {
+    width: 300px;
+    height: 80px;
+}
+
+#qualification-box {
+    width: 100%;
+    border: 2px solid #2c247a;
+    border-collapse: collapse;
+    margin-top: 5px;
+    color: white;
+}
+
+#qualification-box th,
+#qualification-box td {
+    border: none;
+    text-align: center;
+}
+
+#qualification-box input[type="text"] {
+    width: 95%;
+
+}
+
+.note {
+    text-align: center;
+    font-size: 12px;
+}
+
+.inner-table {
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+
+.inner-table th,
+.inner-table td {
+
+    text-align: center;
+}
+
+.inner-table input[type="text"] {
+    width: 90%;
+}
+
+.buttons {
+    text-align: center;
+    margin: auto;
+ 
+}
+
+.btn {
+    padding: 6px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
